@@ -1,0 +1,2 @@
+float32 send_yaw
+float32 send_pitch

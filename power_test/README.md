@@ -1,0 +1,5 @@
+使用foxglove的过程中遇到一个问题。
+在rviz中markers的坐标是根据frame_id的。
+在foxglove中markers的坐标不是根据frame_id，而是根据最顶层的frame。
+所以如果向正常使用foxglove，云台到世界坐标系的变换一定是frame_id=world, child_frame_id=gimbal。
+
